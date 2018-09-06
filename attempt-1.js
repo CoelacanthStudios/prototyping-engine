@@ -23,6 +23,7 @@ class Player {
 }
 
 
+
 function setup() {
 	width = windowWidth;
 	height = windowHeight;
