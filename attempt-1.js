@@ -22,6 +22,7 @@ class Player {
 	}
 }
 
+
 function setup() {
 	width = windowWidth;
 	height = windowHeight;
@@ -39,6 +40,7 @@ function draw() {
 	player.render();
 }
 
+
 function keyPressed() {
 	if(keyCode === 87) {
 		player.gridPos.y--;
@@ -52,5 +54,5 @@ function keyPressed() {
 }
 
 function windowResized() {
-	resizeCanvas(width, height);
+	resizeCanvas(windowWidth, windowHeight, true);
 }
