@@ -28,7 +28,7 @@ function draw() {
 function mousePressed() {
 	console.log(grid.toGrid(mouseX), grid.toGrid(mouseY));
 
-	tile[tile.length] = new Tile(grid.toGrid(mouseX), grid.toGrid(mouseY), 'grass');
+	tile[tile.length] = new Tile(grid.toGrid(mouseX), grid.toGrid(mouseY), 'yes');
 }
 
 function windowResized() {

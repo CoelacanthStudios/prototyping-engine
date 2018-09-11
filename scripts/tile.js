@@ -8,7 +8,9 @@ class Tile {
 		noStroke();
 
 		if(this.type == 'grass') {
-			fill(0, 100, 0);
+			fill(25, 175, 50);
+		} else if(this.type == 'yes') {
+			fill(0, 0, 255);
 		}
 		
 		rect(floor(gridSystem.toCoord(this.pos.x)), floor(gridSystem.toCoord(this.pos.y)), gridSystem.length, gridSystem.length);
